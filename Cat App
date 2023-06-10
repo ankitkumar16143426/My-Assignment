@@ -1,1 +1,101 @@
 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Cat Photo App</h1>
+    <h2>Cat Photo by ANKIT KUMAR</h2>
+    <div>
+      <p> <p>As mostly nocturnal animals, cats have excellent vision and hearing, with ears that can<br>
+         turn like satellite dishes. Their reputation for having nine lives stems </p>
+        Click here to view more <a href="#catList">cat photos.(anchor tag)</a>
+      </p>
+      <a href="#">
+        <img
+          src="https://cdn.pixabay.com/photo/2017/02/20/18/03/cat-2083492_1280.jpg"
+          alt="cat.img"
+          height="300px"
+          width="450px"
+        />
+      </a>
+    </div>
+
+    <div id="catList">
+      <h2>Cat Lists</h2>
+      <h3>Things Cat Love:</h3>
+
+      <ul>
+        <li> Cats can jump 5 times their own height. Now that’s impressive!</li>
+        <li> Most cats have 18 toes, 5 on their front paws and 4 on their back paws </li>
+        <li> Cats are nearsighted, but their peripheral vision and night vision are far superior compared to humans </li>
+      </ul>
+      <div class="inner-div">
+        <img
+          src="https://static.vecteezy.com/system/resources/thumbnails/002/098/204/small/silver-tabby-cat-sitting-on-green-background-free-photo.jpg"
+          alt="lasagne.img"
+          height="350px"
+          width="450px"
+        />
+
+        <p>cats <span>love</span> lasagne</p>
+      </div>
+      <h3>Top 5 things cats hate</h3>
+
+      <ol>
+        <li>Not enough attention</li>
+        <li>Loud noises</li>
+        <li>Competition</li>
+        <li>Tummy rubs </li>
+        <li> Spoiled food</li>
+      </ol>
+      <div class="inner-div">
+        <img
+          src="https://media.istockphoto.com/id/1322123064/photo/portrait-of-an-adorable-white-cat-in-sunglasses-and-an-shirt-lies-on-a-fabric-hammock.jpg?s=612x612&w=0&k=20&c=-G6l2c4jNI0y4cenh-t3qxvIQzVCOqOYZNvrRA7ZU5o="
+          alt="cats-grp.img"
+          height="250px"
+          width="350px"
+        />
+        <p>cats <strong>hate</strong> other cats</p>
+      </div>
+    </div>
+
+    <h2>Cat table</h2>
+    <table frame="box" rules="all">
+      <tr>
+        <th>Cat 1</th>
+        <th>Cat 2</th>
+        <th>Cat 3</th>
+      </tr>
+      <tr>
+        <td rowspan="2">Cat-row 1 Cat-col 1</td>
+        <td>Cat-row 1 Cat-col 2</td>
+        <td>Cat-row 1 Cat-col 3</td>
+      </tr>
+      <tr>
+        <td>Cat-row 2 Cat-col 2</td>
+        <td>Cat-row 2 Cat-col 3</td>
+      </tr>
+      <tr>
+        <td colspan="3">Cat-row 3 Cat-col 1</td>
+      </tr>
+    </table>
+    <h2>Summary</h2>
+    <p>
+        cat, or feline, Any member of the family Felidae, the most highly specialized group of mammalian <br>
+        carnivores. Modern-type cats appeared in the fossil record about 10 million years ago. Cats in the <br>
+        genus Panthera (leopard, jaguar, tiger, and lion) roar but cannot purr, and their pupils are round.<br>
+      <strong>This is strong tag</strong>Lorem ipsum dolor sit amet<b
+        >This is b tag</b>consectetur adipisicing elit. Dolores <i>This is i tag</i> quo<br> ad dolor illum nam delectus
+      error pariatur placeat eaque dolore aliquam fuga unde consequatur
+      <em>This <br>is em tag</em> sed voluptatibus harum, laudantium a cupiditate<br>
+      eveniet natus amet nostrum ab numquam. Nihil, pariatur
+      a? Obcaecati minus, dignissimos optio qui atque repellendus mollitia<br>
+      aliquid recusandae omnis!
+    </p>
+  </body>
+</html>

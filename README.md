@@ -17,7 +17,6 @@
         <input type="text" name="middlename" size="15"/> <br> <br>  
         <b> <label> LastName: </label> </b>        
         <input type="text" name="lastname" size="15"/> <br> <br>  
-          
         <label>   
        <b> Course :  </b>  
         </label>   
@@ -33,7 +32,6 @@
         <option value="M.Phil">M.Phil</option>
         <option value="PhD">PhD</option>  
         </select>  
-          
         <br>  
         <br>  
         <label>   
@@ -63,7 +61,6 @@
        <b> <label for="">Password:</label> </b>
         <input type="Password" id="pass" name="pass"> <br>   
         <br>  
-
         <b> <label for="">Re-type password:</label> </b>
         <input type="Password" id="repass" name="repass"> <br> <br>
         <input type="checkbox" name="" id="">Agree to terms and conditions
@@ -71,16 +68,12 @@
         <b> <label for="">Choose File</label> </b>
         <input type="file" name="" id="">
         <br><br>
-         
         <b> <label for="">Choose Color</label> </b>
         <input type="color" name="" id="">
         <br><br>
-        
         <input type="reset" value="Reset"/> 
         <input type="button" value="Submit"/>  
-        
         </fieldset>
         </form>  
-       
 </body>
 </html>

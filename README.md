@@ -52,7 +52,7 @@
         <input type="tel" name="phone" maxlength="10"  size="10"/> <br> <br>  
         <b><label for="">Address </label></b>
         <br>  
-        <textarea cols="80" rows="5" value="address">  
+        <textarea cols="90" rows="5" value="address">  
         </textarea>  
         <br> <br>  
         <b> <label>Email:</label> </b>
